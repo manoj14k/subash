@@ -1,0 +1,199 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6972533600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass2.beforescenario()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "verifying Adactin login with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-details;verifying-adactin-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 590228200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksclass2.afterscenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9290300400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the Adactin page",
+            "match": {
+              "location": "Loginpage.user_is_on_the_Adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2832593000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should enter \"Manoj14k\" and \"max563686\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manoj14k\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"max563686\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Loginpage.user_should_enter_and_and_click_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1532403500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should enter the \"London\",\"Hotel Greek\",\"Standard\",\"2 - TWO\",\"20/08/2021\",\"22/08/2021\",\"2 - Two\",\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"London\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Hotel Greek\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"2 - TWO\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"20/08/2021\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"22/08/2021\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 92
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 102
+                }
+              ],
+              "location": "Loginpage.user_should_enter_the(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1862498400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should select the hotel",
+            "match": {
+              "location": "Loginpage.user_should_select_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1810036500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should book a hotel so enter the \"manoj\",\"kumar\",\"c-7,adzelane,chennai\",\"1234567890123456\",\"Visa\",\"12\",\"October\",\"2022\",\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manoj\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"kumar\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"c-7,adzelane,chennai\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"1234567890123456\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"Visa\"",
+                  "offset": 96
+                },
+                {
+                  "val": "\"12\"",
+                  "offset": 103
+                },
+                {
+                  "val": "\"October\"",
+                  "offset": 108
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 118
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 125
+                }
+              ],
+              "location": "Loginpage.user_should_book_a_hotel_so_enter_the(String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8730805700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should get the order id",
+            "match": {
+              "location": "Loginpage.user_should_get_the_order_id()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Adactin details",
+    "description": "",
+    "id": "verifying-adactin-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/source.feature",
+    "tags": []
+  }
+]

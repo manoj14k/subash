@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="40.609789">
+<testcase classname="Verifying Adactin details" name="verifying Adactin login with valid credentials" time="20.982353">
+<system-out><![CDATA[Given user is on the Adactin page...........................................passed
+When user should enter "Manoj14k" and "max563686" and click login button....passed
+And user should enter the "London","Hotel Greek","Standard","2 - TWO","20/08/2021","22/08/2021","2 - Two","1 - One".passed
+And user should select the hotel............................................passed
+And user should book a hotel so enter the "manoj","kumar","c-7,adzelane,chennai","1234567890123456","Visa","12","October","2022","123".passed
+Then user should get the order id...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying Adactin details" name="verifying Adactin login with valid credentials 2" time="19.627436">
+<system-out><![CDATA[Given user is on the Adactin page...........................................passed
+When user should enter "Manoj14k" and "max563686" and click login button....passed
+And user should enter the "London","Hotel Greek","Standard","2 - TWO","20/08/2021","22/08/2021","2 - Two","1 - One".passed
+And user should select the hotel............................................passed
+And user should book a hotel so enter the "manoj","kumar","c-7,adzelane,chennai","1234567890123456","Visa","12","October","2022","123".passed
+Then user should get the order id...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
